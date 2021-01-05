@@ -15,10 +15,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var tipControl: UISegmentedControl!
     override func viewDidLoad() {
         super.viewDidLoad()
+        billLabel.becomeFirstResponder()
         // Do any additional setup after loading the view.
     }
     @IBAction func onTap(_ sender: Any) {
-        view.endEditing(true)
+        
     }
     
 
